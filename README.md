@@ -3,10 +3,8 @@ Analysis of air pollution and asthma rates in the U.S.
 
 # Objective:
 Analyze the relationship between air quality and asthma rates in various regions using public datasets:
-
-    1. This data will be useful for examining air pollution levels across different regions in U.S.: https://aqs.epa.gov/aqsweb/airdata/download_files.html
-
-    2. This dataset allows us to correlate asthma incidents with air pollution levels across different states in the U.S: https://www.cdc.gov/asthma/nhis/2021/data.htm 
+1. This data will be useful for examining air pollution levels across different regions in U.S.: https://aqs.epa.gov/aqsweb/airdata/download_files.html
+2. This dataset allows us to correlate asthma incidents with air pollution levels across different states in the U.S: https://www.cdc.gov/asthma/nhis/2021/data.htm 
 
 # Steps:
 1. Collect and preprocess data from sources like CDC, and EPA.
