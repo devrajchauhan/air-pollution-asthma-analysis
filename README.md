@@ -18,16 +18,37 @@ Analyze the relationship between air quality and asthma rates in various regions
 5. Visualize findings using QGIS for mapping and Tableau for trend analysis.
 
 # Exploratory Data Analysis 
-1. State-Level Asthma Rate Analysis 
+
+# 1. State-Level Asthma Rate Analysis 
 
 ![image](https://github.com/user-attachments/assets/a3fefdf2-61ae-4fef-a94b-fa0b6abc4f0f)
 
-2. Average day with PM 2.0 per state. 
+# 2. Average day with PM 2.0 per state. 
 
 ![image](https://github.com/user-attachments/assets/220a0241-d32d-4fa6-9436-8e5c6c11f99f)
 
+# 3. Correlation Between Pollution and Health Metrics
+
+To better understand the relationship between air pollution and health outcomes, we conducted a correlation analysis between various pollution metrics and health-related indicators. The following correlation matrix shows the relationships between different air quality metrics (e.g., PM2.5, PM10, Ozone, NO₂) and health-related metrics (e.g., Unhealthy Days, Very Unhealthy Days, Hazardous Days). 
+
+Correlation Matrix: Pollution and Health Metrics
 
 ![image](https://github.com/user-attachments/assets/1ea84ac4-007c-4eed-9d8a-f499c4d85f28)
+
+# Insights from the Correlation Matrix
+- **PM2.5 and Ozone**: There is a strong negative correlation (-0.74) between PM2.5 and Ozone levels. This suggests that when PM2.5 levels are high, Ozone levels tend to be low, and vice versa. This could be due to different environmental conditions that favor the formation of one pollutant over the other.
+- **PM2.5 and Unhealthy Days**: There is a weak positive correlation (0.11) between PM2.5 levels and Unhealthy Days. This indicates that higher PM2.5 levels may slightly increase the number of unhealthy air quality days, but the relationship is not very strong.
+- **Ozone and Unhealthy Days**: There is a weak negative correlation (-0.04) between Ozone levels and Unhealthy Days. This suggests that Ozone levels do not have a significant impact on the number of unhealthy days.
+- **NO₂ and Health Metrics**: NO₂ shows very weak correlations with all health metrics, indicating that it may not be a major driver of unhealthy air quality days in this dataset.
+- **Unhealthy Days and Very Unhealthy Days**: There is a moderate positive correlation (0.62) between Unhealthy Days and Very Unhealthy Days. This suggests that regions with more unhealthy days are also likely to experience more very unhealthy days.
+- **Hazardous Days**: Hazardous Days show weak correlations with other metrics, indicating that they may be influenced by factors not captured in this dataset.
+
+
+# Implications of the Correlation Analysis
+- **PM2.5 and Ozone**: The strong negative correlation between PM2.5 and Ozone suggests that these pollutants may have different sources or formation mechanisms. This could have implications for air quality management strategies, as reducing one pollutant may not necessarily lead to a reduction in the other.
+- **Unhealthy Days**: The moderate correlation between Unhealthy Days and Very Unhealthy Days highlights the importance of addressing air quality issues before they escalate to more severe levels.
+- **NO₂**: The weak correlations involving NO₂ suggest that it may not be a primary concern in this dataset, but further analysis is needed to confirm this finding.
+
 
 ![image](https://github.com/user-attachments/assets/6024c3b5-c853-4293-bce5-7d6ab5a99324)
 
