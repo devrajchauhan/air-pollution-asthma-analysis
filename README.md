@@ -100,10 +100,58 @@ To predict asthma rates based on air quality data, we built and evaluated two ma
 - **Policy and Public Health Applications**: The high accuracy of the Random Forest model makes it a valuable tool for predicting asthma risks in different regions, which can inform targeted public health interventions and air quality regulations.
 
 
+### Model Performance Comparison
 
+To identify the best-performing model for predicting asthma rates based on air quality data, we evaluated several machine learning models, including **Gradient Boosting**, **Random Forest**, **Support Vector Regression (SVR)**, **K-Nearest Neighbors (KNN)**, **Neural Network**, and **XGBoost**. The following table summarizes the performance of these models using **RMSE (Root Mean Squared Error)** and **R² (coefficient of determination)** metrics.
+
+**Table: Model Performance Comparison**
 ![image](https://github.com/user-attachments/assets/d99fdcb9-d9c9-406d-824f-38c28c3aae86)
 
+#### Insights from the Model Performance Table
+- **Gradient Boosting is the Best-Performing Model**: Gradient Boosting achieved the lowest RMSE (0.749) and the highest R² (0.999), making it the most accurate model for predicting asthma rates. This indicates that Gradient Boosting effectively captures the complex relationships between air quality metrics and asthma rates.
+- **Random Forest and XGBoost Also Perform Well**: Random Forest and XGBoost also showed strong performance, with R² values close to 1 and relatively low RMSE scores (1.097 and 1.905, respectively). These models are robust alternatives to Gradient Boosting.
+- **Neural Network Performs Moderately Well**: The Neural Network achieved an R² of 0.962 and an RMSE of 14.620, indicating decent performance but not as strong as Gradient Boosting or Random Forest.
+- **K-Nearest Neighbors (KNN) Shows Limited Performance**: KNN achieved an R² of 0.772 and an RMSE of 35.590, suggesting that it is less effective at capturing the relationships in this dataset.
+- **Support Vector Regression (SVR) Performs Poorly**: SVR had the worst performance, with an R² of -0.003 and a very high RMSE of 74.690. This indicates that SVR is not suitable for this type of regression task.
+
+---
+
+### Implications of the Model Performance Comparison
+- **Gradient Boosting is the Preferred Model**: Given its superior performance, Gradient Boosting is the best choice for predicting asthma rates based on air quality data. Its high accuracy makes it a valuable tool for public health applications.
+- **Ensemble Methods Outperform Other Models**: The strong performance of Gradient Boosting, Random Forest, and XGBoost highlights the effectiveness of ensemble methods in capturing complex, non-linear relationships in the data.
+- **SVR and KNN Are Not Suitable**: The poor performance of SVR and KNN suggests that these models are not well-suited for this type of regression task, likely due to the complexity of the relationships between air quality metrics and asthma rates.
+
+### Seasonal Trends in Pollution and Health Metrics
+
+To understand how air quality and health metrics vary across different seasons, we analyzed the average levels of pollutants (e.g., PM2.5, PM10, Ozone, NO₂) and health-related metrics (e.g., Unhealthy Days, Very Unhealthy Days, Hazardous Days) over time. The following graph shows the seasonal trends in pollution and health metrics, highlighting how these factors change throughout the year.
+
+**Graph: Seasonal Trends in Pollution and Health Metrics**
+
 ![image](https://github.com/user-attachments/assets/ca0dc957-d93f-492b-a2ac-eb530d7fd9d8)
+
+#### Insights from the Seasonal Trends Graph
+- **PM2.5 and PM10 Levels**:
+  - PM2.5 and PM10 levels tend to peak during **Winter1** and **Winter2**, likely due to increased use of heating systems, reduced air circulation, and temperature inversions that trap pollutants close to the ground.
+  - These levels drop during **Spring** and **Autumn**, possibly due to better air circulation and lower emissions from heating sources.
+
+- **Ozone Levels**:
+  - Ozone levels are highest during **Summer**, which is consistent with the formation of ground-level ozone in hot, sunny conditions. This is a common trend in urban areas with high traffic emissions.
+  - Ozone levels are lowest during **Winter**, as cold temperatures and shorter daylight hours reduce the chemical reactions that produce ozone.
+
+- **NO₂ Levels**:
+  - NO₂ levels remain relatively stable across seasons, with slight increases during **Winter** due to higher emissions from heating and transportation.
+
+- **Unhealthy, Very Unhealthy, and Hazardous Days**:
+  - The number of **Unhealthy Days** and **Very Unhealthy Days** peaks during **Summer**, coinciding with high ozone levels.
+  - **Hazardous Days** are more frequent during **Winter**, likely due to elevated PM2.5 and PM10 levels.
+
+---
+
+### Implications of the Seasonal Trends Analysis
+- **Seasonal Variations in Pollution**: The graph highlights significant seasonal variations in pollution levels, with PM2.5 and PM10 peaking in winter and ozone peaking in summer. This suggests that air quality management strategies should be tailored to address seasonal pollution patterns.
+- **Health Risks**: The increase in unhealthy and hazardous days during specific seasons underscores the need for targeted public health interventions during high-risk periods, such as winter and summer.
+- **Policy Recommendations**: Policymakers should consider seasonal trends when designing air quality regulations and public health campaigns to mitigate the impact of pollution on respiratory health.
+
 
 ### Results and Discussion
 1. **Key Findings**:
