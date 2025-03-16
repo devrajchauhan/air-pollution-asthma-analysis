@@ -31,3 +31,8 @@ Analyze the relationship between air quality and asthma rates in various regions
 
 ![image](https://github.com/user-attachments/assets/ca0dc957-d93f-492b-a2ac-eb530d7fd9d8)
 
+
+### References
+- World Health Organization. (2022). Air quality database: Update 2022. [Link](https://www.who.int/data/gho/data/themes/air-pollution)
+- Centers for Disease Control and Prevention. (2021). Asthma data and surveillance: National Health Interview Survey (NHIS) 2021. [Link](https://www.cdc.gov/asthma/nhis/2021)
+- Environmental Protection Agency. (2021). Air quality system (AQS): Outdoor air quality data. [Link](https://www.epa.gov/outdoor-air-quality-data)
