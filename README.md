@@ -18,8 +18,14 @@ Analyze the relationship between air quality and asthma rates in various regions
 5. Visualize findings using QGIS for mapping and Tableau for trend analysis.
 
 # Exploratory Data Analysis 
+1. State-Level Asthma Rate Analysis 
 
-![image](https://github.com/user-attachments/assets/90a364fc-6e33-4d1d-b1c9-b66c69ad622e)
+![image](https://github.com/user-attachments/assets/a3fefdf2-61ae-4fef-a94b-fa0b6abc4f0f)
+
+2. Average day with PM 2.0 per state. 
+
+![image](https://github.com/user-attachments/assets/220a0241-d32d-4fa6-9436-8e5c6c11f99f)
+
 
 ![image](https://github.com/user-attachments/assets/1ea84ac4-007c-4eed-9d8a-f499c4d85f28)
 
