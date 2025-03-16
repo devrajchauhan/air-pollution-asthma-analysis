@@ -31,6 +31,17 @@ Analyze the relationship between air quality and asthma rates in various regions
 
 ![image](https://github.com/user-attachments/assets/ca0dc957-d93f-492b-a2ac-eb530d7fd9d8)
 
+### Results and Discussion
+1. **Key Findings**:
+   - Elevated PM2.5 and Ozone levels were strongly associated with increased asthma rates.
+   - Gradient Boosting achieved near-perfect predictive accuracy (R² = 0.9999).
+   - Geographic disparities in air quality and asthma rates were observed.
+2. **Public Health Implications**:
+   - The findings emphasize the need for stricter air quality regulations in high-risk areas.
+3. **Model Effectiveness**:
+   - Gradient Boosting demonstrated the potential of machine learning models in public health risk assessments.
+4. **Limitations**:
+   - Data gaps for certain regions and the lack of longitudinal data may have limited the scope of our analysis.
 
 ### References
 - World Health Organization. (2022). Air quality database: Update 2022. [Link](https://www.who.int/data/gho/data/themes/air-pollution)
