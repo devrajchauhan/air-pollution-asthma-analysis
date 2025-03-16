@@ -1,6 +1,10 @@
 # air-pollution-asthma-analysis
 Analysis of air pollution and asthma rates in the U.S.
 
+### Project Overview
+This project explores the relationship between air pollution and asthma, focusing on how environmental factors like PM2.5, O₃, and NO₂ impact respiratory health. The goal is to analyze air quality data, identify key pollutants, and assess their correlation with asthma-related health outcomes.
+
+
 # Objective:
 Analyze the relationship between air quality and asthma rates in various regions using public datasets:
 1. This data will be useful for examining air pollution levels across different regions in U.S.: https://aqs.epa.gov/aqsweb/airdata/download_files.html
@@ -13,4 +17,17 @@ Analyze the relationship between air quality and asthma rates in various regions
 4. Build predictive models using machine learning techniques such as regression, random forest etc.
 5. Visualize findings using QGIS for mapping and Tableau for trend analysis.
 
-![image](https://github.com/user-attachments/assets/8cbbd8be-d430-4509-8e72-2a344a1a6a22)
+# Exploratory Data Analysis 
+
+![image](https://github.com/user-attachments/assets/90a364fc-6e33-4d1d-b1c9-b66c69ad622e)
+
+![image](https://github.com/user-attachments/assets/1ea84ac4-007c-4eed-9d8a-f499c4d85f28)
+
+![image](https://github.com/user-attachments/assets/6024c3b5-c853-4293-bce5-7d6ab5a99324)
+
+![image](https://github.com/user-attachments/assets/10abbf90-759f-49a5-899d-1ae19bee5076)
+
+![image](https://github.com/user-attachments/assets/d99fdcb9-d9c9-406d-824f-38c28c3aae86)
+
+![image](https://github.com/user-attachments/assets/ca0dc957-d93f-492b-a2ac-eb530d7fd9d8)
+
